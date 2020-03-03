@@ -1,0 +1,52 @@
+*
+{
+    margin:0px;
+}
+
+header
+{
+    height:100px;
+    background-color: cyan;
+}
+
+section
+{
+  height:500px;
+  background-color: gray;
+  color:white;
+
+}
+section p
+{
+    font-size: 25px;
+}
+header a{
+ margin-left:20px;
+ margin-top: 10px;
+ display:inline-block;
+ width:200px;
+ height: 30px;
+ background-color: orange;
+ color:black;
+ text-align: center;
+ text-decoration: none;
+ padding-top: 10px;
+ border-radius: 10px;
+ border:2px dashed white;
+ 
+ 
+    
+}
+footer
+{
+
+ height:50px;
+ background-color: cyan;
+}
+
+input
+{
+    
+    width:400px;
+    height: 35px;
+}

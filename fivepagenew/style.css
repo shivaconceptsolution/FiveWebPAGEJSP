@@ -1,0 +1,110 @@
+*
+{
+	margin: 0px;
+}
+
+#container
+{
+    
+}
+
+#header
+{
+   height: 100px;
+   background-color: #918484;
+}
+#header ul
+{
+	position:absolute;
+padding:0;
+left:0;
+
+}
+#header ul li
+{
+
+	display:inline-block;
+	margin-left: 20px;
+	background-color: black;
+	width:150px;
+	text-align: center;
+	border-radius: 10px;
+	margin-top: 20px;
+}
+#header li:hover ul {
+	display:block;
+
+}
+#header ul li ul
+{
+	display: none;
+}
+#header li li:hover ul {
+
+margin-left:10px; /* this should be the same width as the parent list item */
+margin-top:35px; /* aligns top of sub menu with top of list item */
+}
+#header  ul li ul li,#header ul li a
+{
+	color:white;
+	font-size: 20px;
+	text-decoration: none;	
+}
+
+#middle
+{
+  height: 500px;
+  background-color: #e65a5a;
+
+}
+
+#footer
+{
+height: 300px;
+   background-color: #918484;
+
+}
+
+#footer .part
+{
+  width:33%;
+  height: 100%;
+  float:left;
+  border:1px solid red;
+	
+}
+#footer ul
+{
+	list-style-type: none;
+	padding-top: 20px;
+}
+#footer ul li
+{
+     margin-top: 10px;
+
+}
+/*  Contact page Style */
+#form table
+{
+	width:100%;
+	height: 300px;
+}
+
+#form input[type="text"]
+{
+
+	width:250px;
+	height: 35px;
+	border-radius: 10px;
+}
+
+
+#form input[type="button"]
+{
+
+	width:250px;
+	height: 40px;
+	background-color: black;
+	color:white;
+	border-radius: 10px;
+}

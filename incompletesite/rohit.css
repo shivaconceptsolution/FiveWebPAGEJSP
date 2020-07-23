@@ -1,0 +1,27 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+header,footer{
+	background-color: green;
+	height: 200px;
+	margin: 0px;
+	background-size: cover;
+}
+
+h1{
+	font-size: 30px;
+	float: left;
+}
+
+section{
+	height: 500px;
+	background-color: orange;
+	background-size: cover;
+
+}
